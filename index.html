@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Drag and Drop Two Images</title>
+		<link
+			rel="stylesheet"
+			href="styles.css"
+		/>
+	</head>
+	<body>
+		<div id="drop-zone">
+			<h2>📂 Drag and Drop Images</h2>
+			<p id="status-text">Drop 2 images to begin</p>
+		</div>
+
+		<div id="image-container">
+			<div
+				class="label"
+				id="label1"
+			></div>
+			<div
+				class="label"
+				id="label2"
+			></div>
+			<div
+				class="preview"
+				id="preview1"
+			></div>
+			<div
+				class="preview"
+				id="preview2"
+			></div>
+			<div id="slider"></div>
+			<button
+				id="reset-btn"
+				aria-label="Reset View"
+				title="Reset View"
+			>
+				⟳
+			</button>
+		</div>
+
+		<script
+			src="script.js"
+			defer
+		></script>
+	</body>
+</html>
